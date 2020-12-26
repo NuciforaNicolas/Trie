@@ -102,7 +102,7 @@ private:
 		node->getChildren()[index] = removeHelper(node->getChildren()[index], key, ++depth);	// scendo l'albero in profondità fino a raggiungere l'ultimo nodo componente la parola
 
 		// arrivato a questo punto, significa che stiamo risalendo l'albero, per poter eliminare i nodi in bottom-up
-		// decrementiamo depth in modo tale da non eseguire l'if se root corrisponde alla radice vera e propria, evitando di cancellarla
+		// decrementiamo depth in modo tale da non eseguire l'if se node corrisponde alla radice vera e propria, evitando di cancellarla
 		if (--depth > 0 && node->isEmpty() && (!node->getValue())) {							// se il nodo corrente non ha dei riferimenti a nodi figlio e non è un nodo di fine stringa per un qualche prefisso, lo possiamo eliminare
 			delete node;
 			node = nullptr;

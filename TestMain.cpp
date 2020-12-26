@@ -26,6 +26,10 @@ int main() {
 
 	Trie<int>* trie = new Trie<int>();																							// creo un trie
 
+	trie->PrintTrie();																											// Stampa il contenuto di un Trie vuoto
+
+	cout << endl;
+
 	INSERT_TEST(trie, num_words, parole);
 
 	cout << endl;
@@ -116,9 +120,9 @@ void REMOVE_TEST(Trie<T>* trie, string* parole) {
 	cout << endl <<  "Removing words: " <<  wordNotInTrie << ", " << parole[4] << ", " << parole[2] << ", " <<  prefix << endl;
 	
 	trie->Remove(wordNotInTrie);																								// CASO 1: parola non presente nel Trie
-	trie->Remove(parole[4]);																									// CASO 2: la word non ha prefix, e lei stessa non e' prefix
+	trie->Remove(parole[4]);																									// CASO 2: la word non ha prefix, e lei stessa non è prefix
 	trie->Remove(parole[2]);																									// CASO 4: esiste un prefix della word da cancellare
-	trie->Remove(prefix);																										// CASO 3: la word e' prefix di un'altra word
+	trie->Remove(prefix);																										// CASO 3: la word è prefix di un'altra word
 
 	cout << endl << "++++++ AFTER REMOVE ++++++" << endl << endl;
 	trie->PrintTrie();
