@@ -1,6 +1,4 @@
 #include <iostream>
-#include <cstdlib>
-#include <time.h>
 #include "Trie.cpp"
 
 using namespace std;
@@ -8,23 +6,26 @@ using namespace std;
 template<typename T>
 void commandHandler(Trie<T> *);
 
-int main() {
-	srand(time(0));
+void printCommands();
 
+int main() {
 	Trie<int>* trie = new Trie<int>();
 
 	cout << "------------- INTERACTIVE TRIE ----------------------------" << endl << endl;
 
 	while (1) {
-		cout << "1) Print Trie" << endl;
-		cout << "2) Insert word" << endl;
-		cout << "3) Search word" << endl;
-		cout << "4) Remove word" << endl;
-		cout << "q / Q to quit" << endl << endl;
-		cout << "cmd > ";
-
+		printCommands();
 		commandHandler(trie);
 	}
+}
+
+void printCommands(){
+	cout << "1) Print Trie" << endl;
+	cout << "2) Insert word" << endl;
+	cout << "3) Search word" << endl;
+	cout << "4) Remove word" << endl;
+	cout << "q / Q to quit" << endl << endl;
+	cout << "cmd > ";
 }
 
 template<typename T>
@@ -47,11 +48,13 @@ void commandHandler(Trie<T> *trie){
 		int value;
 		cout << "Word: ";
 		cin >> word;
-		cout << endl << "Value: ";
+		cout << endl << "Value (> 0): ";
 		cin >> value;
-		if(!value){
-			cout << "Invalid input. Try again!" << endl;
-			exit(0);
+		if(value <= 0 || cin.fail()){
+			cout << endl << "Value must be a number grater than zero!" << endl;
+			cin.clear();
+			fflush(stdin);
+			break;
 		}
 		trie->Insert(word, value);
 		cout << endl;
@@ -77,8 +80,6 @@ void commandHandler(Trie<T> *trie){
 		trie->PrintTrie();
 	}
 	break;
-	default:
-		break;
 	}
 
 	cout << endl << endl;
