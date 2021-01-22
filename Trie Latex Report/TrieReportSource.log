@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.27)  22 JAN 2021 10:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.27)  22 JAN 2021 10:39
 entering extended mode
 **"d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/TrieReportSource.tex"
 ("d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/TrieReportSource.tex"
@@ -139,35 +139,7 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count266
 \l__pdf_internal_box=\box56
-) ("d:/Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.aux"
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `trie-1' multiply defined.
-
-
-LaTeX Warning: Label `trie-1' multiply defined.
-
-)
+) ("d:/Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.aux")
 \openout1 = `TrieReportSource.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -309,16 +281,12 @@ Package pdftex.def Info: Images/ClassDiagram.png  used on input line 482.
 
 ] [30
 
-] ("d:/Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.aux")
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] ("d:/Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.aux") ) 
 Here is how much of TeX's memory you used:
- 3817 strings out of 479697
- 57825 string characters out of 2867132
- 364257 words of memory out of 3000000
- 20881 multiletter control sequences out of 15000+200000
+ 3826 strings out of 479697
+ 57955 string characters out of 2867132
+ 364286 words of memory out of 3000000
+ 20890 multiletter control sequences out of 15000+200000
  409593 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,13n,72p,894b,434s stack positions out of 5000i,500n,10000p,200000b,50000s

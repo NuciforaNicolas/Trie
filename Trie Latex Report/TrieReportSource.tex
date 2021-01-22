@@ -54,7 +54,7 @@ Ma che forma ha un Trie?
     \centering
     \includegraphics[width=10cm]{Images/shape trie.png}
     \caption{Forma base di un Trie}
-    \label{fig:my_label}
+    \label{fig:shapetrie}
 \end{figure}
 
 Ogni Trie inizia con un nodo radice vuoto. Esso mantiene dei riferimenti (o link) ai suoi nodi figli, uno per ogni possibile lettera dell'alfabeto. A loro volta, ogni nodo figlio mantiene ulteriori riferimenti alle lettere dell'alfabeto. Questo ci permette di stabilire che \textbf{la dimensione di un Trie è direttamente proporzionale alla grandezza dell'alfabeto che vogliamo rappresentare}.
@@ -75,7 +75,7 @@ Ogni nodo, compresa la radice, mantiene due informazioni:
     \centering
     \includegraphics[width=5cm]{Images/nodo trie.png}
     \caption{Nodo di un Trie}
-    \label{fig:my_label}
+    \label{fig:trienode}
 \end{figure}
 
 Quando un Trie viene creato, all'inizio sarà presente solamente il nodo radice. Esso rappresenta la \textbf{stringa vuota}. Il suo valore iniziale sarà \textbf{NULL}. Inoltre, manterrà un array di 26 link ai suoi nodi figlio, che inizialmente avranno valore \textbf{NULL}.
@@ -95,7 +95,7 @@ Nella figura seguente è mostrato un esempio di un Trie riempito con le seguenti
     \centering
     \includegraphics[width=8cm]{Images/esempio trie riempitp.png}
     \caption{Esempio di un Trie riempito}
-    \label{fig:my_label}
+    \label{fig:filledtrie}
 \end{figure}
 
 Per semplicità, non sono stati mostrati i nodi NULL, ovverro che non contengono riferimenti ad altre lettere.
@@ -140,7 +140,7 @@ Prendendo come esempio la parola \textbf{Amazzone}, descriviamo passo per passo 
     \centering
     \includegraphics[width=13cm]{Images/esempio inserimento.png}
     \caption{Esempio di inserimento "Amazzone"}
-    \label{fig:my_label}
+    \label{fig:insertexample}
 \end{figure}
 
 \clearpage
@@ -151,7 +151,7 @@ E se volessimo inserire il prefisso \textbf{Astro} della parola \textbf{Astronau
     \centering
     \includegraphics[width=8cm]{Images/trie dopo inserimento.png}
     \caption{Trie dopo l'inserimento di "Amazzone" e del prefix "Astro"}
-    \label{fig:my_label}
+    \label{fig:afterinsert}
 \end{figure}
 
 \clearpage
@@ -197,7 +197,7 @@ Possiamo notare che, se volessimo aggiungere la parola \textbf{Amaz} nel nostro 
     \centering
     \includegraphics[width=4cm]{Images/ricerca.png}
     \caption{Esempio ricerca "Amazzone"}
-    \label{fig:my_label}
+    \label{fig:searchexample}
 \end{figure}
 
 \subsubsection{Cancellazione}
@@ -255,7 +255,7 @@ L'ultimo caso è dovuto alla presenza di un prefisso all'interno della parola \t
     \centering
     \includegraphics[width=10cm]{Images/dopo cancellazione.png}
     \caption{Trie dopo le cancellazioni}
-    \label{fig:my_label}
+    \label{fig:afterdelete}
 \end{figure}
 
 \clearpage
@@ -279,7 +279,7 @@ Analizziamo le complessità di creazione di un Trie, insieme a quelle delle oper
     \hline
     \end{tabular}
     \caption{Complessità Trie}
-    \label{tab:my_label}
+    \label{tab:complexity}
 \end{table}
 
 \begin{itemize}
@@ -481,7 +481,7 @@ Ricaviamo l'indice del nodo figlio attraverso la stringa passata come parametro 
     \centering
     \includegraphics[width=8cm]{Images/ClassDiagram.png}
     \caption{Diagramma UML Trie}
-    \label{fig:my_label}
+    \label{fig:uml}
 \end{figure}
 
 \clearpage
@@ -507,11 +507,11 @@ Ad ogni inserimento, grazie agli array, la parola viene posizionata in ordine al
                             "\emph{Tries - Implementation}"
                              https://brilliant.org/wiki/tries/
                              
-\bibitem{trie-1}            Daniel Ellard
+\bibitem{trie-2}            Daniel Ellard
                             "\emph{Tries - Implementation}"
                              http://ellard.org/dan/www/libsq/cb\_1998/c06.pdf
                              
-\bibitem{trie-1}            geeksforgeeks.org
+\bibitem{trie-3}            geeksforgeeks.org
                             "\emph{Tries - Insert, Search, Remove}"
                              https://www.geeksforgeeks.org/trie-insert-and-search/?ref=rp
                              https://www.geeksforgeeks.org/trie-delete/?ref=rp
