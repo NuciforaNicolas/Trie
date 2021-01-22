@@ -1,0 +1,19 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Trie: cos'è?}{4}{}%
+\contentsline {subsection}{\numberline {1.1}Struttura di un Trie}{6}{}%
+\contentsline {subsection}{\numberline {1.2}Costruire un Trie}{7}{}%
+\contentsline {subsection}{\numberline {1.3}Operazioni}{8}{}%
+\contentsline {subsubsection}{\numberline {1.3.1}Inserimento}{8}{}%
+\contentsline {subsubsection}{\numberline {1.3.2}Ricerca}{12}{}%
+\contentsline {subsubsection}{\numberline {1.3.3}Cancellazione}{14}{}%
+\contentsline {subsection}{\numberline {1.4}Complessità}{18}{}%
+\contentsline {subsection}{\numberline {1.5}Vantaggi e svantaggi: Trie vs hash Table}{19}{}%
+\contentsline {subsection}{\numberline {1.6}Quando utilizzare un Trie}{20}{}%
+\contentsline {subsection}{\numberline {1.7}Passare ad un altro alfabeto}{21}{}%
+\contentsline {section}{\numberline {2}Pseudocodice}{23}{}%
+\contentsline {subsection}{\numberline {2.1}GetNode}{23}{}%
+\contentsline {subsection}{\numberline {2.2}Insert}{24}{}%
+\contentsline {subsection}{\numberline {2.3}Search}{24}{}%
+\contentsline {subsection}{\numberline {2.4}Remove}{25}{}%
+\contentsline {section}{\numberline {3}UML}{28}{}%
