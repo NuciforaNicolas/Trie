@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.27)  22 JAN 2021 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.27)  22 JAN 2021 10:26
 entering extended mode
-**"d:/Documenti - DataDrive/GitHub/Trie/TrieReportSource.tex"
-("d:/Documenti - DataDrive/GitHub/Trie/TrieReportSource.tex"
+**"d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/TrieReportSource.tex"
+("d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/TrieReportSource.tex"
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-12-07> xparse <2020-03-03> (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -139,7 +139,7 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count266
 \l__pdf_internal_box=\box56
-) ("d:/Documenti - DataDrive\GitHub\Trie\TrieReportSource.aux"
+) ("d:/Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.aux"
 
 LaTeX Warning: Label `fig:my_label' multiply defined.
 
@@ -218,7 +218,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 20.
  [1
 
-{C:/Users/nicol/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("d:/Documenti - DataDrive\GitHub\Trie\TrieReportSource.toc")
+{C:/Users/nicol/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("d:/Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.toc")
 \tf@toc=\write3
 \openout3 = `TrieReportSource.toc'.
 
@@ -236,7 +236,7 @@ Package pdftex.def Info: Images/shape trie.png  used on input line 55.
 (pdftex.def)             Requested size: 284.52756pt x 179.15434pt.
  [5
 
- <d:/Documenti - DataDrive/GitHub/Trie/Images/shape trie.png>]
+ <d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/Images/shape trie.png>]
 <Images/nodo trie.png, id=23, 275.8305pt x 278.84175pt>
 File: Images/nodo trie.png Graphic file (type png)
 <use Images/nodo trie.png>
@@ -244,19 +244,19 @@ Package pdftex.def Info: Images/nodo trie.png  used on input line 76.
 (pdftex.def)             Requested size: 142.26378pt x 143.8157pt.
  [6
 
- <d:/Documenti - DataDrive/GitHub/Trie/Images/nodo trie.png>]
+ <d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/Images/nodo trie.png>]
 <Images/esempio trie riempitp.png, id=29, 464.33475pt x 607.67026pt>
 File: Images/esempio trie riempitp.png Graphic file (type png)
 <use Images/esempio trie riempitp.png>
 Package pdftex.def Info: Images/esempio trie riempitp.png  used on input line 96.
 (pdftex.def)             Requested size: 227.62204pt x 297.88156pt.
- [7 <d:/Documenti - DataDrive/GitHub/Trie/Images/esempio trie riempitp.png>] [8] [9]
+ [7 <d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/Images/esempio trie riempitp.png>] [8] [9]
 <Images/esempio inserimento.png, id=41, 1101.51524pt x 929.27174pt>
 File: Images/esempio inserimento.png Graphic file (type png)
 <use Images/esempio inserimento.png>
 Package pdftex.def Info: Images/esempio inserimento.png  used on input line 141.
 (pdftex.def)             Requested size: 369.88582pt x 312.04884pt.
- [10 <d:/Documenti - DataDrive/GitHub/Trie/Images/esempio inserimento.png>]
+ [10 <d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/Images/esempio inserimento.png>]
 <Images/trie dopo inserimento.png, id=46, 439.04025pt x 608.87476pt>
 File: Images/trie dopo inserimento.png Graphic file (type png)
 <use Images/trie dopo inserimento.png>
@@ -265,7 +265,7 @@ Package pdftex.def Info: Images/trie dopo inserimento.png  used on input line 15
  [11
 
 
- <d:/Documenti - DataDrive/GitHub/Trie/Images/trie dopo inserimento.png>] [12
+ <d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/Images/trie dopo inserimento.png>] [12
 
 ]
 <Images/ricerca.png, id=54, 183.68625pt x 331.83975pt>
@@ -275,7 +275,7 @@ Package pdftex.def Info: Images/ricerca.png  used on input line 198.
 (pdftex.def)             Requested size: 113.81102pt x 205.61192pt.
  [13
 
- <d:/Documenti - DataDrive/GitHub/Trie/Images/ricerca.png>] [14] [15
+ <d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/Images/ricerca.png>] [14] [15
 
 ] [16
 
@@ -285,7 +285,7 @@ File: Images/dopo cancellazione.png Graphic file (type png)
 <use Images/dopo cancellazione.png>
 Package pdftex.def Info: Images/dopo cancellazione.png  used on input line 256.
 (pdftex.def)             Requested size: 284.52756pt x 335.45842pt.
- [17 <d:/Documenti - DataDrive/GitHub/Trie/Images/dopo cancellazione.png>]
+ [17 <d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/Images/dopo cancellazione.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 268.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -305,25 +305,25 @@ Package pdftex.def Info: Images/ClassDiagram.png  used on input line 482.
 (pdftex.def)             Requested size: 227.62204pt x 418.95732pt.
  [28
 
- <d:/Documenti - DataDrive/GitHub/Trie/Images/ClassDiagram.png>] [29
+ <d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/Images/ClassDiagram.png>] [29
 
 ] [30
 
-] ("d:/Documenti - DataDrive\GitHub\Trie\TrieReportSource.aux")
+] ("d:/Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  3817 strings out of 479697
- 57609 string characters out of 2867132
+ 57825 string characters out of 2867132
  364257 words of memory out of 3000000
  20881 multiletter control sequences out of 15000+200000
  409593 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,13n,72p,876b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,13n,72p,894b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\nicol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "d:/Documenti - DataDrive\GitHub\Trie\TrieReportSource.pdf" (30 pages, 701473 bytes).
+Output written on "d:/Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.pdf" (30 pages, 701619 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

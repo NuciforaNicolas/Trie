@@ -27,7 +27,7 @@
 \clearpage
 
 \section*{Prefazione}
-Lo scopo della relazione è analizzare, sotto ogni aspetto, la struttura dati per la gestione delle stringhe chiamata "Trie". Verrà data una sostanziosa descrizione della struttura dati: com'è nata, quali problemi risolve, la sua struttura, come funziona, i pro e i contro del loro utilizzo, e cosi via. Successivamente, si analizzerà lo pseudocodice per l'implementazione delle operazioni effettuabili su un Trie. Infine, il diagramma UML dell'approccio scelto per l'implementazione.
+Lo scopo della relazione è analizzare, sotto ogni aspetto, la struttura dati per la gestione delle stringhe chiamata "Trie". Verrà data una sostanziosa descrizione della struttura dati: com'è nata, quali problemi risolve, la sua struttura, come funziona, i pro e i contro del loro utilizzo, e cosi via. Successivamente, si analizzerà lo pseudocodice per l'implementazione delle operazioni per la gestione di un Trie. Infine, il diagramma UML dell'approccio scelto per l'implementazione.
 La relazione verrà accompagnata dal codice, scritto in C++, che implementa la struttura, proponendo la risoluzione di uno dei problemi descritti.
 
 \clearpage
@@ -37,14 +37,14 @@ Il problema di immagazzinare un insieme di parole, come un dizionario con le rel
 
 Esistono diverse soluzioni, ognuno con i suoi pro e i suoi contro in termini di complessità spaziale e temporale. Un esempio sono le tabelle hash e i dizionari. 
 
-Ma esiste una specifica struttura dati, nata appositamente per risolvere il problema della rappresentazione di un insieme di parole: la struttura dati \textbf{Trie}
+Ma esiste una specifica struttura dati nata appositamente per risolvere il problema della rappresentazione di un insieme di parole: la struttura dati \textbf{Trie}
 
 Il loro utilizzo è stato suggerito per la prima volta dal francese \textbf{René de la Briandais} nel 1959.
 
 La parola "Trie" deriva da re\textbf{trie}val (recupero), in quanto permette di recuperare una parola in pochissimo tempo. 
 \vspace{5mm}
 
-Sostanzialmente, un Trie è una struttura ad albero n-ario (il nome trie serve inoltre a distinguerlo da altre strutture ad albero). Ciò che lo distingue dalle altre strutture ad albero è il fatto che ogni nodo memorizza dentro di se l'intero alfabeto che vogliamo rappresentare (per esempio, 26 lettere per l'alfabeto anglosassone). Strutturando i nodi in modo particolare, è possibile recuperare (re\textbf{trie}ve) una parola/stringa attraversando verso il basso un ramo dell'albero.
+Sostanzialmente, un Trie è una struttura ad albero n-ario (il nome trie serve inoltre a distinguerlo da altre strutture ad albero). Ciò che lo differenzia dalle altre strutture ad albero è il fatto che ogni nodo memorizza dentro di se l'intero alfabeto che vogliamo rappresentare (per esempio, 26 lettere per l'alfabeto anglosassone). Strutturando i nodi in modo particolare, è possibile recuperare (re\textbf{trie}ve) una parola/stringa attraversando verso il basso un ramo dell'albero.
 \vspace{5mm}
 
 Ma che forma ha un Trie?
@@ -68,7 +68,7 @@ Quindi, un Trie potrà essere molto piccolo o molto grande. E' possibile mantene
 Ogni nodo, compresa la radice, mantiene due informazioni:
 \begin{itemize}
     \item Un valore: che può essere \textbf{NULL}
-    \item Un array di riferimenti ai nodi figlio: che potrebbero essere \textbf{NULL}
+    \item Un array di riferimenti a nodi figlio: che potrebbero essere \textbf{NULL}
 \end{itemize}
 
 \begin{figure}[ht!]
@@ -89,7 +89,7 @@ Successivamente, verranno messi a confronto \textbf{Trie} e \textbf{Tabella hash
 Nel paragrafo successivo, verrà mostrato come riempire un Trie e come funziona la ricerca di una parola.
 
 \subsection{Costruire un Trie}
-Nella figura seguente è mostrato un esempio di un Trie, riempito con le seguenti parole: \textbf{Algoritmo, Amazon, Astronauta, Asterix, Sogno}.
+Nella figura seguente è mostrato un esempio di un Trie riempito con le seguenti parole: \textbf{Algoritmo, Amazon, Astronauta, Asterix, Sogno}.
 
 \begin{figure}[ht!]
     \centering
@@ -125,11 +125,11 @@ Prendendo come esempio la parola \textbf{Amazzone}, descriviamo passo per passo 
 
     \item Partendo dalla radice, controlliamo se il riferimento alla lettera \textbf{A} è presente, essendo la prima lettera che compone la parola \textbf{Amazzone}.
     
-    \item Il riferimento al nodo \textbf{A} è diverso da \textbf{NULL}, quindi è presente. Scendiamo verso il basso, fino a raggiungere il primo riferimento al nodo \textbf{Z}.
+    \item Il riferimento al nodo \textbf{A} è diverso da \textbf{NULL}, quindi è presente. Scendiamo verso il basso scandendo le successive lettere che compongono \textbf{Amazzone}: \textbf{A-M-A-Z}.
     
-    \item La prossima lettera da controllare è la seconda \textbf{Z} di \textbf{Amazzone}. Il primo nodo \textbf{Z} della parola \textbf{Amazon} non ha un riferimento ad una seconda \textbf{Z}, infatti è \textbf{NULL}. Possiamo creare un nuovo nodo e inserire il suo riferimento alla cella 25 dell'array mantenuto dalla prima lettera \textbf{Z}.
+    \item La prossima lettera da controllare è la seconda \textbf{Z} di \textbf{Amazzone}. Il primo nodo \textbf{Z} (che dal principio compone la parola \textbf{Amazon}) non ha un riferimento ad una seconda \textbf{Z}, infatti è \textbf{NULL}. Possiamo creare un nuovo nodo e inserire il suo riferimento alla cella 25 dell'array mantenuto dalla prima lettera \textbf{Z}.
     
-    \item Incontreremo ulteriori link \textbf{NULL} anche per le successive lettere \textbf{O}, \textbf{N} ed \textbf{E}. Non faremo altro che creare nuovi nodi e posizionare i riferimenti rispettivamente nelle celle: \textbf{14} (secondo nodo \textbf{Z}), \textbf{13} (nodo \textbf{O}), \textbf{4} (nodo \textbf{N}).
+    \item Incontreremo ulteriori link \textbf{NULL} anche per le successive lettere \textbf{O}, \textbf{N} ed \textbf{E}. Non faremo altro che creare nuovi nodi e posizionare i riferimenti rispettivamente nelle celle: \textbf{O = 14} (nel secondo nodo \textbf{Z}), \textbf{N = 13} (nel nodo \textbf{O} appena inserito), \textbf{E = 4} (nel nodo \textbf{N} creato subito dopo).
     
     \item Infine, essendo \textbf{E} l'ultima lettera della parola \textbf{Amazzone}, per indicare che questo nodo rappresenta la fine della parola, inseriamo un valore diverso da NULL (in questo esempio \textbf{25}). Se avessimo utilizzato un booleano, bastava settarlo a \textbf{TRUE}.
     
@@ -206,13 +206,13 @@ L'operazione di cancellazione è molto semplice e veloce. E' necessario verifica
 I casi in cui si incorre durante la cancellazione in un Trie sono i seguenti:
 
 \begin{enumerate}
-    \item La chiave non è presente nel Trie. In questo caso, il Trie non viene alterato.
+    \item La chiave non è presente nel Trie. In questo caso il Trie non viene alterato.
     
     \item La chiave è \textbf{unica}. Non sono presenti \textbf{prefissi} (chiavi che sono sotto-stringhe della chiave da cancellare); la chiave stessa da eliminare non è prefisso di una chiave più lunga. \textbf{Possiamo cancellare tutti i nodi}.
     
     \item La chiave è \textbf{prefisso} di una chiave più lunga. Si setta semplicemente il suo valore a \textbf{NULL}, rimuovendola logicamente.
     
-    \item La chiave è presente nel Trie, ma è presente almeno una parola come \textbf{prefisso} della chiave da cancellare. Vengono cancellati i nodi a partire dalla fine della chiave vittima, fino ad arrivare al primo nodo foglia della chiave \textbf{prefisso} più lunga.
+    \item La chiave è presente nel Trie, ma è presente almeno una parola come \textbf{prefisso} della chiave da cancellare. A partire dall'ultimo nodo componente la chiave vittima, vengono cancellati i nodi fino ad arrivare al primo nodo che compone la chiave \textbf{prefisso} più lunga, che non dovranno essere cancellati.
 \end{enumerate}
 
 Analizziamo ogni caso di una cancellazione utilizzando le seguenti parole: \textbf{Algo}, \textbf{Sogno}, \textbf{Astro}, \textbf{Astronauta}.
@@ -240,7 +240,7 @@ Prima di tutto, settiamo il valore a \textbf{NULL}. Dopodiché, controlliamo se 
 \textbf{\underline{Caso 3: Astro}}
 
 \vspace{5mm}
-Essa è prefisso della chiave \textbf{Astronauta}. Come nei casi precedenti, effettuiamo la ricerca del valore di \textbf{Astro}. Essendo diverso da \textbf{NULL}, esso è presente nella struttura. Controlliamo i riferimenti nell'ultimo nodo \textbf{O}, e ci accorgiamo che è presente un riferimento ad un nodo rappresentante la lettera \textbf{N}, appartentente alla parola \textbf{Astronauta}. In questo caso, non possiamo cancellare alcun nodo, altrimenti non sarà più possibile recuperare la parola \textbf{Astronauta}. L'unico modo per rimuovere la parola \textbf{Astro} dal Trie è farlo logicamente, settando il suo valore a \textbf{NULL}.
+Essa è prefisso della chiave \textbf{Astronauta}. Come nei casi precedenti, effettuiamo la ricerca del valore di \textbf{Astro}. Essendo diverso da \textbf{NULL}, esso è presente nella struttura. Controlliamo i riferimenti nell'ultimo nodo \textbf{O}, e ci accorgiamo che è presente un riferimento ad un nodo rappresentante la lettera \textbf{N}, appartentente alla parola \textbf{Astronauta}. In questo caso non possiamo cancellare alcun nodo, altrimenti non sarà più possibile recuperare la parola \textbf{Astronauta}. L'unico modo per rimuovere la parola \textbf{Astro} dal Trie è farlo logicamente settando il suo valore a \textbf{NULL}.
 
 \vspace{5mm}
 

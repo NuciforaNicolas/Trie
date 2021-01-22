@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1611305879 "d:/Documenti - DataDrive/GitHub/Trie/TrieReportSource.tex" "d:/Documenti - DataDrive/GitHub/Trie/TrieReportSource.pdf" "TrieReportSource" 1611305882
+["pdflatex"] 1611307604 "d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/TrieReportSource.tex" "d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/TrieReportSource.pdf" "TrieReportSource" 1611308081
   "C:/Users/nicol/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1440.pk" 1609518897 16968 0026782daf13e0e0af4b7cf66e4710e5 ""
   "C:/Users/nicol/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1609070151 9258811 ad10e261b5455d1b77bee56ce4b3dd69 ""
   "C:/Users/nicol/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1610959398 82507 a9eef8696c92627b87e9975edea03b2a ""
@@ -55,15 +55,15 @@
   "Images/ricerca.png" 1609147814 31672 9856e1900855aae90e2b1833af77a0da ""
   "Images/shape trie.png" 1609147814 59137 cb5ee609bd249102ecd7827e3c7a072b ""
   "Images/trie dopo inserimento.png" 1609147814 98287 1b7db51cc56635f8d88053ee01ffd565 ""
-  "TrieReportSource.aux" 1611305881 4104 d317f31497639ce316e93e2af767ab45 "pdflatex"
-  "TrieReportSource.tex" 1611305877 34441 96ce397790ff464a89b496522d17e56c ""
-  "TrieReportSource.toc" 1611305881 1178 a095dfa3b3926e449e6f3457be8378cc "pdflatex"
-  "d:/Documenti - DataDrive/GitHub/Trie/TrieReportSource.aux" 1611305881 4104 d317f31497639ce316e93e2af767ab45 ""
-  "d:/Documenti - DataDrive/GitHub/Trie/TrieReportSource.tex" 1611305877 34441 96ce397790ff464a89b496522d17e56c ""
+  "TrieReportSource.aux" 1611307606 4104 d317f31497639ce316e93e2af767ab45 "pdflatex"
+  "TrieReportSource.tex" 1611308081 34599 b7050b48b5430b1682545e5eea249cc0 ""
+  "TrieReportSource.toc" 1611307606 1178 a095dfa3b3926e449e6f3457be8378cc "pdflatex"
+  "d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/TrieReportSource.aux" 1611307606 4104 d317f31497639ce316e93e2af767ab45 ""
+  "d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/TrieReportSource.tex" 1611308081 34599 b7050b48b5430b1682545e5eea249cc0 ""
   (generated)
-  "d:/Documenti - DataDrive/GitHub/Trie/TrieReportSource.log"
+  "d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/TrieReportSource.pdf"
+  "TrieReportSource.log"
+  "TrieReportSource.aux"
+  "d:/Documenti - DataDrive/GitHub/Trie/Trie Latex Report/TrieReportSource.log"
   "TrieReportSource.toc"
   "TrieReportSource.pdf"
-  "TrieReportSource.log"
-  "d:/Documenti - DataDrive/GitHub/Trie/TrieReportSource.pdf"
-  "TrieReportSource.aux"

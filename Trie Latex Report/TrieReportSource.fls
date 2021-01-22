@@ -1,7 +1,7 @@
-PWD d:\Documenti - DataDrive\GitHub\Trie
+PWD d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report
 INPUT C:\Users\nicol\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Documenti - DataDrive\GitHub\Trie\TrieReportSource.tex
-OUTPUT d:\Documenti - DataDrive\GitHub\Trie\TrieReportSource.log
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.tex
+OUTPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.log
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -185,10 +185,10 @@ INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT d:\Documenti - DataDrive\GitHub\Trie\TrieReportSource.aux
-INPUT d:\Documenti - DataDrive\GitHub\Trie\TrieReportSource.aux
-INPUT d:\Documenti - DataDrive\GitHub\Trie\TrieReportSource.aux
-OUTPUT d:\Documenti - DataDrive\GitHub\Trie\TrieReportSource.aux
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.aux
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.aux
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.aux
+OUTPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.aux
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -207,66 +207,66 @@ INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-OUTPUT d:\Documenti - DataDrive\GitHub\Trie\TrieReportSource.pdf
+OUTPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.pdf
 INPUT C:\Users\nicol\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT d:\Documenti - DataDrive\GitHub\Trie\TrieReportSource.toc
-INPUT d:\Documenti - DataDrive\GitHub\Trie\TrieReportSource.toc
-INPUT d:\Documenti - DataDrive\GitHub\Trie\TrieReportSource.toc
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.toc
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.toc
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.toc
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-OUTPUT d:\Documenti - DataDrive\GitHub\Trie\TrieReportSource.toc
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\shape trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\shape trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\shape trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\shape trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\shape trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\shape trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\shape trie.png
+OUTPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.toc
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\shape trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\shape trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\shape trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\shape trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\shape trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\shape trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\shape trie.png
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1440.tfm
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\nodo trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\nodo trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\nodo trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\nodo trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\nodo trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\nodo trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\nodo trie.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio trie riempitp.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio trie riempitp.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio trie riempitp.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio trie riempitp.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio trie riempitp.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio trie riempitp.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio trie riempitp.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\esempio inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\trie dopo inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\trie dopo inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\trie dopo inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\trie dopo inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\trie dopo inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\trie dopo inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\trie dopo inserimento.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ricerca.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ricerca.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ricerca.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ricerca.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ricerca.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ricerca.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ricerca.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\dopo cancellazione.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\dopo cancellazione.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\dopo cancellazione.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\dopo cancellazione.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\dopo cancellazione.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\dopo cancellazione.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\dopo cancellazione.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\nodo trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\nodo trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\nodo trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\nodo trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\nodo trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\nodo trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\nodo trie.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio trie riempitp.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio trie riempitp.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio trie riempitp.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio trie riempitp.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio trie riempitp.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio trie riempitp.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio trie riempitp.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\esempio inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\trie dopo inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\trie dopo inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\trie dopo inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\trie dopo inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\trie dopo inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\trie dopo inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\trie dopo inserimento.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ricerca.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ricerca.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ricerca.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ricerca.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ricerca.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ricerca.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ricerca.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\dopo cancellazione.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\dopo cancellazione.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\dopo cancellazione.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\dopo cancellazione.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\dopo cancellazione.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\dopo cancellazione.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\dopo cancellazione.png
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -277,14 +277,14 @@ INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ClassDiagram.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ClassDiagram.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ClassDiagram.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ClassDiagram.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ClassDiagram.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ClassDiagram.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\Images\ClassDiagram.png
-INPUT d:\Documenti - DataDrive\GitHub\Trie\TrieReportSource.aux
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ClassDiagram.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ClassDiagram.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ClassDiagram.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ClassDiagram.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ClassDiagram.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ClassDiagram.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\Images\ClassDiagram.png
+INPUT d:\Documenti - DataDrive\GitHub\Trie\Trie Latex Report\TrieReportSource.aux
 INPUT C:\Users\nicol\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1440.pk
 INPUT C:\Users\nicol\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1440.pk
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
